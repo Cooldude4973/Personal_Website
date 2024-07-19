@@ -546,10 +546,19 @@ transform: translate(-5px , -5px );
     border-radius: 20px ;
 
 }
+.projectimg{
+    height: calc(350px/1.5);
+    width:   250px;
+    border-radius: 20px ;
+
+}
 .ptxt{
+    text-align: center;
     color: #11232b;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
+    font-family: 'Playfair Display', serif;
+    margin: 5px;
 }
 
 
@@ -616,14 +625,16 @@ transform: translate(-5px , -5px );
 
 /**********************************NEXT SECTION************************************/ 
 .container5{
-    height: 170vh;
+    /* border : 2px solid red; */
+    /* height: max-content; */
     width: 100vw;
     background-color: #957D26;
     
 }
 .cpara1{
     text-shadow: -2.5px 5px #705E1D;
-    margin-top: 0;
+    padding-top: 40px;
+    
 }
 .innercontainer{
     display: flex;
